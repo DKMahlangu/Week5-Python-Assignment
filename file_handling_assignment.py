@@ -1,7 +1,7 @@
 def create_and_write_file():
     try:
         with open("my_file.txt", "w") as file:
-            file.write("Hello, this is the first line.\n")
+            file.write("This is the first line.\n")
             file.write("12345 is a number.\n")
             file.write("This is the third line.\n")
     except PermissionError:
